@@ -1,0 +1,15 @@
+[project]
+name = "PrakModul6"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "ferdhiee",email = "ardiansyahferdi920@gmail.com"},
+]
+dependencies = ["streamlit>=1.41.1", "pandas>=2.2.3", "tensorflow>=2.18.0", "matplotlib>=3.10.0", "scikit-learn>=1.6.0"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
